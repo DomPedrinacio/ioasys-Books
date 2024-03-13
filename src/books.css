@@ -1,0 +1,411 @@
+.books-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.header_books {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-left: 150px;
+}
+
+
+.logo_books {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.title_books {
+    margin-top: 5px;
+}
+
+.header_books {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.livro {
+    height: 140px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+
+.exit {
+    background-color: white;
+    border-color: black;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_books {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.layout {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(249, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: column;
+}
+
+.livro {
+    height: 140px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.tituloLivro {
+    font-size: medium;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.directions {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    border-color: black;
+}
+
+.go {
+    color: black;
+}
+
+.footer p {
+    margin: 0;
+    /* Remova a margem padrão do parágrafo */
+}
+
+
+.subtituloLivro {
+    font-size: small;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: #AB2680;
+}
+
+.description {
+    margin-left: 10px;
+    margin-top: 7px;
+    color: #999999;
+
+}
+
+.card {
+    /* Seus estilos padrão para os cards não expandidos */
+    margin-top: 30px;
+    width: 190px;
+    height: 180px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, height 0.3s ease;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.card.ampliado:hover {
+    height: 280px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.layout-content {
+    text-align: center;
+}
+
+
+
+.logo_books {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.title_books {
+    margin-top: 5px;
+}
+
+
+
+
+.layout {
+    width: 1136px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 100px;
+    background: linear-gradient(to right, white, #f7f7f2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: column;
+}
+
+/* Adicione este estilo para centralizar o conteúdo interno */
+.layout-content {
+    text-align: center;
+    /* Centraliza horizontalmente o texto (ou qualquer conteúdo de bloco) */
+}
+
+
+.welcome {
+    margin-right: 30px;
+    font-size: large;
+}
+
+@media only screen and (min-width: 601px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        margin: 10px;
+        margin-right: 150px;
+    }
+
+    .exit {
+        background-color: white;
+        border-color: black;
+        color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .footer button {
+        color: black;
+        border-color: black;
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .pages {
+        color: #333333;
+        font-size: 22px;
+    }
+
+    .welcome {
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        /* Para centralizar verticalmente */
+    }
+
+    .welcome p {
+        margin-right: 15px;
+        /* Adiciona uma margem à direita do texto */
+    }
+
+    .left-content {
+        display: flex;
+        align-items: center;
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header_books {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    .layout {
+        width: 370px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 20px;
+        background-color: rgb(249, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: column;
+    }
+
+    .livro {
+        height: 140px;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 5px;
+    }
+
+    .tituloLivro {
+        font-size: medium;
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+
+    .layout {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        
+    }
+
+    .footer button {
+        padding: 8px 16px;
+        border-radius: 4px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .directions {
+        width: 50px;
+        height: 50px;
+        border-radius: 50% !important;
+        border-color: black;
+    }
+
+    .go {
+        color: black;
+    }
+
+    .footer p {
+        margin: 0;
+        /* Remova a margem padrão do parágrafo */
+    }
+
+
+    .subtituloLivro {
+        font-size: small;
+        margin-top: 7px;
+        margin-left: 10px;
+        color: #AB2680;
+    }
+
+    .description {
+        margin-left: 10px;
+        margin-top: 7px;
+        color: #999999;
+
+    }
+
+    .card {
+        margin-top: 30px;
+        width: 288px;
+        height: 160px;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+        transition: height 0.3s ease;
+    }
+
+    .card.ampliado {
+        height: 160px;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .title {
+        color: black;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .layout-content {
+        text-align: center;
+    }
+
+    .exit {
+        background-color: white;
+        border-color: black;
+        color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo_books {
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+
+    .title_books {
+        margin-top: 5px;
+    }
+
+    .welcome {
+        display: none;
+    }
+}
